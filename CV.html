@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Muhammad Danish Pujotomo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #34495e;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+        }
+
+        /* Profil Section (Left Sidebar) */
+        .profile {
+            background: #1abc9c;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            border-radius: 10px; /* Ganti menjadi kotak */
+        }
+
+        .profile h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #f1f1f1;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center; /* Align to center */
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s;
+            margin: 0 10 10 10 px; /* Add space between icons */
+        }
+
+        .social-icon img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .social-icon:hover {
+            background-color: #1abc9c;
+            transform: scale(1.1);
+        }
+
+        /* Main Content Section (Right Side) */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #1abc9c;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .section-content {
+            font-size: 1.1em;
+            color: #ecf0f1;
+            margin-bottom: 30px;
+        }
+
+        .section-content p {
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1em;
+            color: #7f8c8d;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .profile img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .profile h1 {
+                font-size: 1.8em;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+
+            .social-icons {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Section (Left Sidebar) -->
+        <div class="profile">
+            <!-- Ganti gambar profile dengan guy.jpeg -->
+            <img src="guy.jpg" alt="Deny Warzuky">
+            <h1>Muhammad Danish Pujotomo</h1>
+            <p>Siswa Kelas 10 - SMA</p>
+            <p>Warkop, Provinsi Jawa Selatan</p>
+
+            <!-- Social Media Links dengan Gambar -->
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://whatsapp.com" target="_blank" class="social-icon">
+                    <img src="whatsapp-icon.png" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+
+        <!-- Main Content Section (Right Side) -->
+        <div class="main-content">
+            <!-- About Me Section -->
+            <section>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <p>Saya adalah seorang siswa di kelas 10, SMA di Warkop, Provinsi Jawa Selatan. Saya sangat tertarik dalam dunia teknologi, desain grafis, dan pengembangan web. Saya memiliki passion dalam belajar hal baru dan mengasah keterampilan di bidang teknologi.</p>
+                </div>
+            </section>
+
+            <!-- Latar Belakang Section -->
+            <section>
+                <h2 class="section-title">Latar Belakang</h2>
+                <div class="section-content">
+                    <p>Saya berasal dari keluarga yang sangat mendukung pendidikan dan perkembangan saya. Sejak kecil, saya selalu tertarik dengan dunia teknologi, terutama komputer dan internet. Keinginan untuk belajar dan berkembang mendorong saya untuk mendalami lebih dalam tentang pengembangan aplikasi dan desain web.</p>
+                </div>
+            </section>
+
+            <!-- Pendidikan Section -->
+            <section>
+                <h2 class="section-title">Pendidikan</h2>
+                <div class="section-content">
+                    <p>- 2023 - Sekarang: SMA Negeri 3 Kalijogo, Kelas 10<br>- 2019 - 2023: SMP Negeri 1 Wangsulan<br>- 2013 - 2019: SD Negeri Permata Cerah</p>
+                </div>
+            </section>
+
+            <!-- Pengalaman Section -->
+            <section>
+                <h2 class="section-title">Pengalaman</h2>
+                <div class="section-content">
+                    <p>- 2024: Kerja di Resto Sedap Turu sebagai Pelayan, memberikan layanan terbaik untuk pelanggan dan belajar tentang dunia restoran.<br>- 2023: Main Bola dalam Mimpi, mengikuti kompetisi sepak bola virtual di dunia mimpi untuk meningkatkan kreativitas dan teamwork.<br>- 2022: Mendirikan Perusahaan Ngibul, sebuah perusahaan kecil yang berfokus pada layanan hiburan dan konten kreatif berbasis humor dan satire di media sosial.</p>
+                </div>
+            </section>
+
+            <!-- Pencapaian Section -->
+            <section>
+                <h2 class="section-title">Pencapaian</h2>
+                <div class="section-content">
+                    <p>- Juara 1 Lomba Desain Web tingkat Kabupaten Probolinggo (2024)<br>- Pemenang Hackathon Teknologi di SMA Negeri 1 Probolinggo (2023)<br>- Mendapat Penghargaan sebagai "Pelayan Terbaik" di Resto Sedap Turu (2024)</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Deny Warzuky. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
